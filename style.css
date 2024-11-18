@@ -1,0 +1,23 @@
+:root{
+    --text: #ffffff;
+    --background: #27282d;
+    --primary: #990100;
+    --secondary: #ffffff;
+    --accent: #ff0100;
+    --font-title: "Tektur", sans-serif;
+    --font-text: "Ubuntu";
+}
+*{
+    color: var(--text);
+}
+body{
+    background-color: var(--background);
+}
+h1{
+    font-family: var(--font-title);
+    font-size: 5rem;
+    color: var(--primary);
+    text-shadow: 2px 2px 3px black;
+    margin: auto 0;
+    text-align: center;
+}
