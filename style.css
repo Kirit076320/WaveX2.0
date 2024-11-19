@@ -88,7 +88,7 @@ h1{
     0px 2px 2px 0px rgba(255, 255, 255, 0.5);
     background-color: #33343a;
     margin: auto;
-    height: 50vh;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,9 +114,13 @@ footer{
     text-align: right;
 
 }
+.nav-link:hover{
+    scale: 1.2;
+    font-weight: 500;
+}
 .boutton-nav{
     margin-right: 1px;
-    width: 23%;
+    width: auto;
 }
 .toto-MN{
     text-align: left;
@@ -131,5 +135,33 @@ footer{
 .text-body-ml{
     font-family: var(--text) ;
     text-decoration: none;
+    color: var(--text);
+}
+.dropdown-menu-dark{
+ margin-left:90%;
+}
+.bdp-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background);
+    gap: 0;
+}
+.bdp-links{
+    color: var(--text);
+    text-decoration: none;
+}
+.list-group-item{
+    background-color: var(--background);
+    border: none;
+}
+.list-group-item:hover{
+    scale: 1.4;
+
+}
+.ml-drop{
+    background-color: var(--background);
+    color: var(--text);
+}
+.ml-item{
     color: var(--text);
 }
