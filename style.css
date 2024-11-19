@@ -21,3 +21,17 @@ h1{
     margin: auto 0;
     text-align: center;
 }
+img{
+    width: 30%;
+    margin: auto;
+    box-shadow: 2px 2px 3px black;
+}
+.slide{
+    border: 1px solid var(--accent);
+    width: 50%;
+    margin: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
