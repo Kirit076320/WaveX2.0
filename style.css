@@ -20,18 +20,39 @@ h1{
     text-shadow: 2px 2px 3px black;
     margin: auto 0;
     text-align: center;
+    padding-bottom: 2rem;
 }
-img{
+.h2-ml{
+    color: var(--primary);
+    font-family: var(--font-title);
+    text-shadow: 2px 2px 3px black;
+    margin-left: 7%;
+    font-size: 3rem;
+}
+.h3-ml{
+    text-align: center;
+    color: transparent;
+    font-family: var(--font-title);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsUJxE3kw3WjHy-ni0_EihvXVuT1zOrf-E-g&s");
+    -webkit-background-clip: text;
+    font-size: 3rem;
+
+}
+.img-ml{
     width: 30%;
     margin: auto;
     box-shadow: 2px 2px 3px black;
 }
-.slide{
-    border: 1px solid var(--accent);
+.slide-ml{
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+    0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+    background-color: #33343a;
     width: 50%;
     margin: auto;
-    min-height: 50vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 40%;
 }
