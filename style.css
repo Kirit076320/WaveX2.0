@@ -34,7 +34,6 @@ h3.nouveautes_h3_mp{
 }
 
 ul.nouveautes_ul_mp{
-    display: inline-block;
     font-family: var(--font-text);
     color:var(--text)
 }
