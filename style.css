@@ -1,31 +1,123 @@
 :root{
-    --text: #ffffff;
-    --background: #27282d;
-    --primary: #990100;
-    --secondary: #ffffff;
-    --accent: #ff0100;
-    --font-title: "Tektur", sans-serif;
-    --font-text: "Ubuntu";
+   --text: #ffffff;
+   --background: #27282d;
+   --primary: #990100;
+   --secondary: #ffffff;
+   --accent: #ff0100;
+   --font-title: "Tektur", sans-serif;
+   --font-text: "Ubuntu";
 }
 
 body{
-    background-color: var(--background);
+   background-color: var(--background);
 }
 .tp-h1{
-    display: block;
-    font-family: var(--font-title);
-    font-size: 5rem;
-    color: var(--primary);
-    text-shadow: 2px 2px 3px black;
-    text-align: center;
-    margin: 50px 0 50px;
+   display: block;
+   font-family: var(--font-title);
+   font-size: 5rem;
+   color: var(--primary);
+   text-shadow: 2px 2px 3px black;
+   text-align: center;
+   margin: 50px 0 50px;
 }
 
 .tp-carousel img{
-    height: 100vh;
+   height: 100vh;
+}
+
+.rd-tit{
+   text-align: center;
+   color: var(--primary);
+}
+.rd-img{
+   width: 100%;
+}
+.rd-col{
+   width: 50%;
+   display: flex;
+}
+.rd-tx{
+   color: var(--text);
+   font-size: 1.5rem;
+}
+.btn-danger{
+   margin-left: 45%;
+   margin-top: 50px;
+   --bs-btn-padding-x: 1rem;
+   --bs-btn-padding-y: 0.375rem;
+}
+.navbar{
+   background-color:var(--primary)
 }
 
 
+footer{
+   background-color: var(--background);
+   color: var(--text);
+   margin-top: 5rem;
+}
+
+.nav-link {
 
 
+   text-align: right;
 
+}
+.nav-link:hover{
+   scale: 1.2;
+   font-weight: 500;
+}
+.boutton-nav{
+   margin-right: 1px;
+   width: auto;
+}
+.toto-MN{
+   text-align: left;
+   height: 100px;
+   width: 100px;
+}
+
+.moto{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40px;
+}
+.text-body-ml{
+   font-family: var(--text) ;
+   text-decoration: none;
+   color: var(--text);
+}
+.dropdown-menu-dark{
+   margin-left:90%;
+}
+.bdp-content{
+   display: flex;
+   justify-content: space-around;
+   background-color: var(--background);
+   gap: 0;
+}
+.bdp-links{
+   color: var(--text);
+   text-decoration: none;
+}
+.list-group-item{
+   background-color: var(--background);
+   border: none;
+}
+.list-group-item:hover{
+   scale: 1.4;
+
+}
+
+/* Tablette (≥ 768px) */
+@media (max-width: 768px) {
+   .rd-col {
+       width: 100%;
+   }
+}
+{
+   display: inline-block;
+   font-family: var(--font-title);
+   font-size: 5rem;
+   color: var(--primary);
+   text-shadow: 2px 2px 3px black;
+}
