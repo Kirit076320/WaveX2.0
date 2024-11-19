@@ -11,26 +11,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div> <a href="index.html"><img  class="toto-MN" src="img/cineflix.png" alt="" ></a></div>
+        <div class="moto" >CINEFLIX</div>
+
+        <div class="container boutton-nav">
+            <p  color: red;>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img src="" alt=""></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="" alt="" srcset=""></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nos film</a>
+                    </li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Genre
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Animation</a></li>
+                                    <li><a class="dropdown-item" href="#">Fantastique</a></li>
+                                    <li><a class="dropdown-item" href="#">Horreur</a></li>
+                                    <li><a class="dropdown-item" href="#">Romance</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+                <form class="d-flex" role="search">
+
+            </div>
+        </div>
+    </nav>
+</header>
 <h1>Votre H1</h1>
-<h2 class="h2-ml">Romance</h2>
+<h2 class="h2-ml">Nos catégories </h2>
+<!-----------------------------------------bouton trie ------------------------>
+<div class="dropdown dropbtn-ml">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Genres
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#carouselExample-4">Action</a></li>
+        <li><a class="dropdown-item" href="#carouselExample-3">Animation</a></li>
+        <li><a class="dropdown-item" href="#carouselExample-2">Romance</a></li>
+        <li><a class="dropdown-item" href="#carouselExample">Horreur</a></li>
+        <li><a class="dropdown-item" href="#carouselExample-5">Fantastique</a></li>
+    </ul>
+</div>
+<!--------------------------------------------------------------------------------->
                     <!----------------------------------Debut carrousell 1--------------------------------->
-<h3 class="h3-ml-horreur">Romance</h3>
+<h3 class="h3-ml-horreur">Horreur</h3>
 <div id="carouselExample" class="carousel slide-ml">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/heredite.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/heredite.jpg.jpg" class="d-block img-ml" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/it.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/it.jpg.jpg" class="d-block img-ml" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/saw.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/saw.jpg.jpg" class="d-block img-ml" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/smile2.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/smile2.jpg.jpg" class="d-block img-ml" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="images/substance.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/substance.jpg.jpg" class="d-block img-ml" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -46,23 +106,28 @@
                                             <!-------------------- fin carrousell horreur --->
 <!-------------------- debut carrousell love --->
 
-<h3 class="h3-ml-love">Horreur o</h3>
+<h3 class="h3-ml-love">Romance</h3>
 <div id="carouselExample-2" class="carousel slide-ml">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/heredite.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/contre-sens-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Sens interdit</p>
         </div>
         <div class="carousel-item">
-            <img src="images/it.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/lalaland-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Lalaland</p>
         </div>
         <div class="carousel-item">
-            <img src="images/saw.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/lamour-ouf-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">L'amour ouf</p>
         </div>
         <div class="carousel-item">
-            <img src="images/smile2.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/sexe-entre-amis-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Sexe en famille</p>
         </div>
         <div class="carousel-item">
-            <img src="images/substance.jpg.jpg" class="d-block img-ml" alt="...">
+            <img src="img/trois-amies-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Trois amies</p>
         </div>
 
     </div>
@@ -76,6 +141,193 @@
     </button>
 </div>
 <!-------------------- fin carrousell love --->
+<!-------------------- debut carrousell animation --->
+
+<h3 class="h3-ml-animation">Animation</h3>
+<div id="carouselExample-3" class="carousel slide-ml">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/croquette-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Croquette</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/dragons-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Dragons</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/lego-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Lego</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/peppa-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Lardon</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/toy-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Les mini jouets</p>
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample-3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample-3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-------------------- fin carrousell animation --->
+
+<!-------------------- debut carrousell action --->
+
+<h3 class="h3-ml-action">Action</h3>
+<div id="carouselExample-4" class="carousel slide-ml">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/avenger-infinity-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Avengers infinity</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/badboys-2-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Bad Boys 2</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/badboys-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Bad Boys</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/gladiator-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Gladiator</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/transformers.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Transfomers</p>
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample-4" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample-4" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-------------------- fin carrousell action --->
+<!-------------------- debut carrousell fantastic --->
+
+<h3 class="h3-ml-fantaisie">Fantastique</h3>
+<div id="carouselExample-5" class="carousel slide-ml">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/avatar-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Avatar</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/seigneurs-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Le seigneur des anneaux</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/fallen-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Fallen</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/harry-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">Harry Pootter</p>
+        </div>
+        <div class="carousel-item">
+            <img src="img/mask-accueil.jpg" class="d-block img-ml" alt="...">
+            <p class="ml-titre-film">The Mask</p>
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample-5" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample-5" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-------------------- fin carrousell fantastic --->
+<footer class="text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #3b5998;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #55acee;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #dd4b39;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #ac2bac;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color:
+          href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+        ></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        Â© 2020 Copyright:
+        <a class="text-body-ml" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
 
 
 
