@@ -29,14 +29,21 @@ h1{
     margin-left: 7%;
     font-size: 3rem;
 }
-.h3-ml{
+.h3-ml-horreur{
     text-align: center;
     color: transparent;
     font-family: var(--font-title);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsUJxE3kw3WjHy-ni0_EihvXVuT1zOrf-E-g&s");
     -webkit-background-clip: text;
     font-size: 3rem;
-
+}
+.h3-ml-love{
+    text-align: center;
+    color: transparent;
+    font-family: var(--font-title);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnHDC_xWfGaQDWBHG2swghEkLzhhiAo-Y8Hg&s");
+    -webkit-background-clip: text;
+    font-size: 3rem;
 }
 .img-ml{
     width: 30%;
