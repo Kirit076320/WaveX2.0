@@ -1,4 +1,4 @@
-:root{
+:root {
     --text: #ffffff;
     --background: #27282d;
     --primary: #990100;
@@ -8,12 +8,84 @@
     --font-text: "Ubuntu";
 }
 
-body{
+body {
     background-color: var(--background);
 }
-.tp-h1{
+
+.navbar {
+    background-color: var(--primary)
+}
+
+
+footer {
+    background-color: var(--background);
+    color: var(--text);
+    margin-top: 5rem;
+}
+
+.nav-link {
+
+
+    text-align: right;
+
+}
+
+.nav-link:hover {
+    scale: 1.2;
+    font-weight: 500;
+}
+
+.boutton-nav {
+    margin-right: 1px;
+    width: auto;
+}
+
+.toto-MN {
+    text-align: left;
+    height: 100px;
+    width: 100px;
+}
+
+.moto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.text-body-ml {
+    font-family: var(--text);
+    text-decoration: none;
+    color: var(--text);
+}
+
+.dropdown-menu-dark {
+    margin-left: 90%;
+}
+
+.bdp-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background);
+    gap: 0;
+}
+
+.bdp-links {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.list-group-item {
+    background-color: var(--background);
+    border: none;
+}
+
+.list-group-item:hover {
+    scale: 1.4;
+
+}
+
+.tp-h1 {
     display: block;
-    font-family: var(--font-title);
+    font-family: var(--font-title), sans-serif;
     font-size: 5rem;
     color: var(--primary);
     text-shadow: 2px 2px 3px black;
@@ -21,10 +93,103 @@ body{
     margin: 50px 0 50px;
 }
 
-.tp-carousel img{
-    height: 100vh;
+.tp-carousel-width {
+    width: 70%;
+    left: 15%
 }
 
+.tp-carousel img {
+    height: 100%;
+
+}
+
+.img-accueil {
+    height: 70vh;
+    max-width: 350px;
+}
+
+.img-accueil:hover {
+}
+
+.tp-h2-accueil {
+    color: var(--accent);
+    margin: 0 0 50px 50px;
+}
+
+.tp-h3-accueil {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.tp-button-accueil {
+    margin-bottom: 20px
+}
+
+
+/*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*/
+
+
+@media (max-width: 320px) {
+    .tp-h1 {
+        display: block;
+        font-family: var(--font-title), sans-serif;
+        font-size: 2rem;
+        color: var(--primary);
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+        margin: 50px 0 50px;
+    }
+
+    .tp-carousel-width {
+        width: 80%;
+    }
+
+    .tp-accueil-mobile {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .tp-carousel img {
+        height: 100%;
+    }
+
+    .img-accueil {
+        height: 70vh;
+        max-width: 350px;
+    }
+
+    .tp-h2-accueil {
+        color: var(--accent);
+        margin: 0 0 50px 50px;
+    }
+
+    .tp-h3-accueil {
+        color: var(--primary);
+        margin-bottom: 20px;
+    }
+
+    .tp-button-accueil {
+        margin-bottom: 20px
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+    .tp-accueil-mobile {
+        text-align: center;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .width-accueil-tp {
+        overflow: hidden;
+    }
+}
+
+/*.width-accueil-tp {*/
+/*    padding: 0;*/
+/*    margin: 5px;*/
+/*}*/
 
 
 
