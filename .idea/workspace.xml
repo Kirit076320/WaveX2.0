@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be13988a-d2b4-45cc-955e-454b16ad742a" name="Changes" comment="ajout dossiers" />
+    <list default="true" id="be13988a-d2b4-45cc-955e-454b16ad742a" name="Changes" comment="ajout dossiers">
+      <change afterPath="$PROJECT_DIR$/html/genre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/mention.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bonus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contre-sens-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fantaisie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/horreur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lalaland-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lamour-ouf-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/notebook-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/romance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sexe-entre-amis-genre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,27 +31,30 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MoraisTP"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MoraisTP&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kirit076320/WaveX2.0",
-    "accountId": "5103c453-eb14-4fcd-98ea-c85a6eb5451a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kirit076320/WaveX2.0&quot;,
+    &quot;accountId&quot;: &quot;5103c453-eb14-4fcd-98ea-c85a6eb5451a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2p12eh0pvw8uM5adl13hK9T4xZx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +63,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#2 on Merging Genre",
     "last_opened_file_path": "C:/Users/morai/Documents/1 NFS/Portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +73,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="dev" />
+    </force-push-targets>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,6 +111,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Suppr img.zip" />
     <MESSAGE value="ajout dossiers" />
     <option name="LAST_COMMIT_MESSAGE" value="ajout dossiers" />
   </component>
