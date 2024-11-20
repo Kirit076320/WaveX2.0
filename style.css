@@ -11,6 +11,68 @@
 body{
     background-color: var(--background);
 }
+
+.navbar{
+    background-color:var(--primary)
+}
+
+
+footer{
+    background-color: var(--background);
+    color: var(--text);
+    margin-top: 5rem;
+}
+
+.nav-link {
+
+
+    text-align: right;
+
+}
+.nav-link:hover{
+    scale: 1.2;
+    font-weight: 500;
+}
+.boutton-nav{
+    margin-right: 1px;
+    width: auto;
+}
+.toto-MN{
+    text-align: left;
+    height: 100px;
+    width: 100px;
+}
+
+.moto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.text-body-ml{
+    font-family: var(--text) ;
+    text-decoration: none;
+    color: var(--text);
+}
+.dropdown-menu-dark{
+ margin-left:90%;
+}
+.bdp-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background);
+    gap: 0;
+}
+.bdp-links{
+    color: var(--text);
+    text-decoration: none;
+}
+.list-group-item{
+    background-color: var(--background);
+    border: none;
+}
+.list-group-item:hover{
+    scale: 1.4;
+
+}
 h1{
     display: inline-block;
     font-family: var(--font-title);
@@ -20,26 +82,30 @@ h1{
 }
 
 
-h2.nouveautes_h2_mp{
+.nouveautes_h2_mp{
+    display: inline-block;
     font-family: var(--font-title);
     font-size: 3rem;
     color: var(--secondary)
 }
 
-h3.nouveautes_h3_mp{
-    display: inline-block;
+.nouveautes_h3_mp{
     font-family: var(--font-title);
     font-size: 2rem;
     color: var(--accent);
 }
 
-ul.nouveautes_ul_mp{
+.nouveautes_ul_mp{
     font-family: var(--font-text);
     color:var(--text)
 }
 
-a.nouveautes_a_mp{
+.nouveautes_a_mp{
     display: inline-block;
     font-family: var(--font-text);
     color:var(--text)
+}
+
+.img_nouveautes_mp{
+    max-height: 350px;
 }

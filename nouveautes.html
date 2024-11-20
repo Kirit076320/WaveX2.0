@@ -12,6 +12,45 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+          <div> <a href="index.html"><img  class="toto-MN" src="img/cineflix.png" alt="" ></a></div>
+          <div class="moto" >CINEFLIX</div>
+  
+          <div class="container boutton-nav">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"><img src="" alt=""></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#"><img src="" alt="" srcset=""></a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="genre.html">Genres</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="nouveates.html">NouveautÃ©</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="list-films.html">Nos film</a>
+                      </li>
+                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Genre</button>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Animation</a></li>
+                            <li><a class="dropdown-item" href="#">Fantastique</a></li>
+                            <li><a class="dropdown-item" href="#">Horreur</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                          </ul>
+                      </ul>
+                </div>
+                  <form class="d-flex" role="search">
+            </div>
+          </div>
+      </nav>
+  </header>
     <h2 class="nouveautes_h2_mp">Nouveautés</h2>
     <h3 class="nouveautes_h3_mp">Dernières sorties :</h3>
     <!-- début carousel -->
@@ -46,42 +85,42 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/gladiator-nouveautes.jpg" class="img-fluid" alt="gladiator">
+              <img src="../img/gladiator-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="gladiator">
               <ul class="nouveautes_ul_mp">
                 <li>Genre:<a href="action.html" class="a_nouveautes_mp"> Action</a></li>
                 <li>Date: 13 Novembre 2024</li>
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/substance-nouveautes.jpg" class="img-fluid" alt="substance">
+              <img src="../img/substance-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="substance">
               <ul class="nouveautes_ul_mp">
                 <li>Genre:<a href="horeur.html" class="a_nouveautes_mp"> Horeur</a></li>
                 <li>Date: 6 Novembre 2024</li>
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/smile-2-nouveautes.jpg" class="img-fluid" alt="smile">
+              <img src="../img/smile-2-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="smile">
               <ul class="nouveautes_ul_mp">
-                <li>Genre:<a href="horeur.html" class="a_nouveautes_mp"> Horeur</a></li>
+                <li>Genre:<a href="horeur.html" class="a_nouveautes_mp "> Horeur</a></li>
                 <li>Date: 16 Octobre 2024</li>
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/croquette-nouveautes.jpg" class="img-fluid" alt="croquette">
+              <img src="../img/croquette-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="croquette">
               <ul class="nouveautes_ul_mp">
                 <li>Genre:<a href="Animation.html" class="a_nouveautes_mp"> Animation</a></li>
                 <li>Date: 16 Octobre 2024</li>
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/saw-nouveautes.jpg" class="img-fluid" alt="saw">
+              <img src="../img/saw-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="saw">
               <ul class="nouveautes_ul_mp">
                 <li>Genre:<a href="horeur.html" class="a_nouveautes_mp"> Horeur</a></li>
                 <li>Date:29 Septembre 2023</li>
               </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-4 border">
-              <img src="../img/contre-sens-nouveautes.jpg" class="img-fluid" alt="contresens">
+              <img src="../img/contre-sens-nouveautes.jpg" class="img-fluid img_nouveautes_mp" alt="contresens">
               <ul class="nouveautes_ul_mp">
                 <li>Genre:<a href="romance.html" class="a_nouveautes_mp"> Romance</a></li>
                 <li>Date:8 juin 2023</li>
@@ -89,6 +128,93 @@
             </div>
         </div>
     </div>  <!-- Fin de grille -->
+    <footer class="text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #3b5998;"
+                      href="#!"
+                      role="button"
+              ><i class="fab fa-facebook-f"></i
+              ></a>
+  
+              <!-- Twitter -->
+              <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #55acee;"
+                      href="#!"
+                      role="button"
+              ><i class="fab fa-twitter"></i
+              ></a>
+  
+              <!-- Google -->
+              <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #dd4b39;"
+                      href="#!"
+                      role="button"
+              ><i class="fab fa-google"></i
+              ></a>
+  
+              <!-- Instagram -->
+              <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #ac2bac;"
+                      href="#!"
+                      role="button"
+              ><i class="fab fa-instagram"></i
+              ></a>
+  
+              <!-- Linkedin -->
+              <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #0082ca;"
+                      href="#!"
+                      role="button"
+              ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color:
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i></a>
+          </section>
+  <div class="bdp-content">
+      <ul class="list-group w-30">
+          <li class="list-group-item"><a class="bdp-links" href="index.html">Accueil</a></li>
+          <li class="list-group-item"><a class="bdp-links"  href="genre.html">Genres</a></li>
+          <li class="list-group-item"><a class="bdp-links"  href="nouveates.html">Nouveauté</a></li>
+          <li class="list-group-item"><a class="bdp-links"  href="list-films.html">Listes des films</a></li>
+  
+      </ul>
+      <ul class="list-group w-30">
+          <li class="list-group-item"><a class="bdp-links"  href="tel:010507">0123456789</a></li>
+          <li class="list-group-item"><a class="bdp-links"  href="mailto:lecinéquitue@gmail.com"> @lecinéquitue</a></li>
+      </ul>
+    </div>
+          <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          Â© 2020 Copyright:
+          <a class="text-body-ml" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
