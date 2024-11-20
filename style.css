@@ -259,7 +259,7 @@ h1{
     text-shadow: 2px 2px 3px black;
     text-align: center;
 }
-.h2-ml {
+.h2-ml, .mention{
     color: var(--primary);
     font-family: var(--font-title);
     text-shadow: 2px 2px 3px black;
