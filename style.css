@@ -85,6 +85,11 @@ footer {
 .mention_main{
     color: #990100;
 }
+
+.mp-carousel-genre {
+    width: 50%;
+    margin: 25% ;
+}
 .genre_main{
     background-color: #27282d;
 }
@@ -477,6 +482,7 @@ footer {
     font-size: 2rem;
     color: var(--accent);
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .nouveautes_ul_mp{
