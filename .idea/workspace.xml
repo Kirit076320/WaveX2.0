@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be13988a-d2b4-45cc-955e-454b16ad742a" name="Changes" comment="ajout dossiers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/genre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/mention.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bonus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contre-sens-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fantaisie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/horreur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lalaland-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lamour-ouf-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/notebook-genre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/romance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sexe-entre-amis-genre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +63,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "#2 on Merging Genre",
     "last_opened_file_path": "C:/Users/morai/Documents/1 NFS/Portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,8 +111,8 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout dossiers" />
     <MESSAGE value="Suppr img.zip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suppr img.zip" />
+    <MESSAGE value="ajout dossiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout dossiers" />
   </component>
 </project>
