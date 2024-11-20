@@ -36,9 +36,11 @@ body{
     width: 50%;
     display: flex;
 }
+
 .rd-tx{
     color: var(--text);
     font-size: 1.5rem;
+    text-align: left;
 }
 .btn-danger{
     margin-left: 45%;
