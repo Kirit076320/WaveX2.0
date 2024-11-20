@@ -7,7 +7,9 @@
     --font-title: "Tektur", sans-serif;
     --font-text: "Ubuntu";
 }
-
+*{
+    color: var(--text);
+}
 body {
     background-color: var(--background);
 }
@@ -513,6 +515,35 @@ footer {
     text-decoration: none;
 }
 
+/*30filmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+.rd-tit{
+    text-align: center;
+    color: var(--primary);
+}
+.rd-img{
+    width: 100%;
+}
+.rd-col{
+    width: 50%;
+    display: flex;
+}
+
+.rd-tx{
+    color: var(--text);
+    font-size: 1.5rem;
+    text-align: left;
+}
+.biterd{
+    margin-left: 45%;
+    margin-top: 50px;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 0.375rem;
+}
+.dr-divbut{
+    width: 7%;
+    margin: auto;
+    margin-top: 2rem;
+}
 /*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*/
 
 
@@ -557,6 +588,11 @@ footer {
 
     .tp-button-accueil {
         margin-bottom: 20px
+    }
+}
+@media (max-width: 768px) {
+    .rd-col {
+        width: 100%;
     }
 }
 
