@@ -1,0 +1,248 @@
+:root {
+    --text: #ffffff;
+    --background: #27282d;
+    --primary: #990100;
+    --secondary: #ffffff;
+    --accent: #ff0100;
+    --font-title: "Tektur", sans-serif;
+    --font-text: "Ubuntu";
+}
+
+body {
+    background-color: var(--background);
+}
+
+.navbar {
+    background-color: var(--primary)
+}
+
+
+footer {
+    background-color: var(--background);
+    color: var(--text);
+    margin-top: 5rem;
+}
+
+.nav-link {
+
+
+    text-align: right;
+
+}
+
+.nav-link:hover {
+    scale: 1.2;
+    font-weight: 500;
+}
+
+.boutton-nav {
+    margin-right: 1px;
+    width: auto;
+}
+
+.toto-MN {
+    text-align: left;
+    height: 100px;
+    width: 100px;
+}
+
+.moto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.text-body-ml {
+    font-family: var(--text);
+    text-decoration: none;
+    color: var(--text);
+}
+
+.dropdown-menu-dark {
+    margin-left: 90%;
+}
+
+.bdp-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background);
+    gap: 0;
+}
+
+.bdp-links {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.list-group-item {
+    background-color: var(--background);
+    border: none;
+}
+
+.list-group-item:hover {
+    scale: 1.4;
+
+}
+.genre_main{
+    background-color: #27282d;
+}
+.genre_texte{
+    color: #990100;
+}
+.genreMP{
+    text-align: center;
+    color:  #990100;
+    background-color: #27282d ;
+    border: #990100 0.5em solid;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    border-radius: 25%;
+    max-font-size:1rem;
+    transition: scale 2s;
+    transition: 3s;
+}
+.genreMP:hover, .genre_AMP{
+    color: #27282d;
+    text-decoration: none;
+    background-color: #990100;
+    transform: scale(1.2);
+}
+.genre_AMP:hover{
+    color:#27282d;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    width: fit-content;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .image {
+    opacity: 0;
+}
+#horreur:hover  .genre_text  {
+    opacity: 1;
+}
+
+#romance:hover  .genre_text  {
+    opacity: 1;
+}
+
+#action:hover  .genre_text  {
+    opacity: 1;
+}
+
+#animation:hover  .genre_text  {
+    opacity: 1;
+}
+
+#bonus:hover  .genre_text  {
+    opacity: 1;
+}
+
+#fantaisie:hover  .genre_text  {
+    opacity: 1;
+}
+.genre_text {
+    opacity: 0;
+    color: #27282d;
+    font-size: 1.5em;
+    transition: all 0.3s ease;
+}
+
+#romance{
+
+    background-image: url("../img/romance.png");
+    background-size: 100%;
+}
+
+#romance:hover{
+    background-color: red;
+    background-image: none ;
+}
+
+
+
+#horreur{
+
+    background-image: url("../img/horreur.jpg");
+    background-size: 100%;
+}
+
+#horreur:hover{
+    background-color: red;
+    background-image: none ;
+}
+
+#action{
+
+    background-image: url("../img/action.jpg");
+    background-size: 100%;
+}
+
+#action:hover{
+    background-color: red;
+    background-image: none ;
+}
+
+#animation{
+
+    background-image: url("../img/animation.png");
+    background-size: 100%;
+}
+
+#animation:hover{
+    background-color: red;
+    background-image: none ;
+}
+
+#fantaisie{
+
+    background-image: url("../img/fantaisie.jpg");
+    background-size: 100%;
+}
+
+#fantaisie:hover{
+    background-color: red;
+    background-image: none ;
+}
+
+#bonus{
+
+    background-image: url("../img/bonus.jpg");
+    background-size: 100%;
+}
+
+#bonus:hover{
+    background-color: red;
+    background-image: none ;
+}
+.genre_titre{
+    text-align: center;
+    color: #990100;
+}
+.genre_button{
+    margin: auto 40%;
+    padding: 3em;
+    background-color: #990100;
+    color: #27282d;
+    border-radius: 10%;
+}
