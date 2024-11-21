@@ -258,6 +258,9 @@ h1{
     color: var(--primary);
     text-shadow: 2px 2px 3px black;
     text-align: center;
+    width: 80%;
+    margin: auto;
+    position: initial;
 }
 .h2-ml, .mention{
     color: var(--primary);
@@ -347,6 +350,9 @@ h1{
 .navbar {
     background-color: var(--primary)
 }
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
 
 
 footer {
@@ -389,9 +395,9 @@ footer {
     color: var(--text);
 }
 
-.dropdown-menu-dark {
-    margin-left: 90%;
-}
+
+
+
 
 .bdp-content {
     display: flex;
@@ -547,6 +553,15 @@ footer {
     margin: auto;
     margin-top: 2rem;
 }
+.dropdown-menu-dark-div{
+    text-align: center;
+    justify-content: right;
+}
+    .dropdown-menu-dark{
+        margin-left: 80%;
+        max-width: fit-content;
+        justify-content: right;
+    }
 /*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*//*medias bootstrap*/
 
 
@@ -597,6 +612,7 @@ footer {
     .rd-col {
         width: 100%;
     }
+
 }
 
 /*// X-Large devices (large desktops, 1200px and up)*/
@@ -611,6 +627,7 @@ footer {
         overflow: hidden;
 
     }
+
 }
 
 /*.width-accueil-tp {*/
