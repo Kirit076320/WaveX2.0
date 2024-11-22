@@ -558,7 +558,7 @@ footer {
     justify-content: right;
 }
     .dropdown-menu-dark{
-        margin-left: 80%;
+        margin-left: 78%;
         max-width: fit-content;
         justify-content: right;
     }
@@ -611,6 +611,11 @@ footer {
 @media (max-width: 768px) {
     .rd-col {
         width: 100%;
+    }
+    .dropdown-menu-dark{
+        margin-left: 50%;
+        max-width: fit-content;
+        justify-content: right;
     }
 
 }
