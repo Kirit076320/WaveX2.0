@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be13988a-d2b4-45cc-955e-454b16ad742a" name="Changes" comment="ajout dossiers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/croquette.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/croquette.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/fallen.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fallen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lego.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lego.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/list-films.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/list-films.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mention.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mention.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/nouveautes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/nouveautes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page-p.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +94,7 @@
       <updated>1731919358147</updated>
       <workItem from="1731919359690" duration="653000" />
       <workItem from="1732229091871" duration="3208000" />
-      <workItem from="1732262784634" duration="1709000" />
+      <workItem from="1732262784634" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="ajout dossiers">
       <option name="closed" value="true" />
@@ -194,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732231718011</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ajout dossiers">
+      <option name="closed" value="true" />
+      <created>1732264827367</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732264827367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

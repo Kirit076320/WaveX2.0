@@ -156,7 +156,7 @@ footer {
 
 #romanceMP{
 
-    background-image: url("../img/romance.png");
+    background-image: url("./img/romance.png");
     background-size: 100%;
 }
 
@@ -169,7 +169,7 @@ footer {
 
 #horreurMP{
 
-    background-image: url("../img/horreur.jpg");
+    background-image: url("./img/horreur.jpg");
     background-size: 100%;
 }
 
@@ -179,7 +179,7 @@ footer {
 }
 
 #actionMP{
-    background-image: url("../img/action.jpg");
+    background-image: url("./img/action.jpg");
     background-size: 100%;
 }
 
@@ -190,7 +190,7 @@ footer {
 
 #animationMP{
 
-    background-image: url("../img/animation.png");
+    background-image: url("./img/animation.png");
     background-size: 100%;
 }
 
@@ -201,7 +201,7 @@ footer {
 
 #fantaisieMP{
 
-    background-image: url("../img/fantaisie.jpg");
+    background-image: url("./img/fantaisie.jpg");
     background-size: 100%;
 }
 
@@ -212,7 +212,7 @@ footer {
 
 #bonusMP{
 
-    background-image: url("../img/bonus.jpg");
+    background-image: url("./img/bonus.jpg");
     background-size: 100%;
 }
 
